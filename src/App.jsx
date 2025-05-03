@@ -6,7 +6,7 @@ import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/toprak">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hakkimizda" element={<About />} />
