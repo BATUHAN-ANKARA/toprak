@@ -9,7 +9,7 @@ export default defineConfig({
     compression({ algorithm: "brotliCompress", ext: ".br" }), // Brotli sıkıştırma
     compression({ algorithm: "gzip", ext: ".gz" }), // Gzip sıkıştırma
   ],
-  base: "/mimar_front/",
+  base: '/toprak/',
   build: {
     sourcemap: false, // Harita dosyalarını kaldır
     minify: "esbuild", // Daha hızlı ve etkili minify işlemi
